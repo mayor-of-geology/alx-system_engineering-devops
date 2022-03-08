@@ -1,2 +1,2 @@
 #!/bin/bash
-ls $PATH | wc -l
+echo /c/Users/USER/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/USER/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/cmd:/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/c/Program Files/CodeBlocks/MinGW/bin:/c/Users/USER/AppData/Local/GitHubDesktop/bin:/usr/bin/vendor_perl:/usr/bin/core_perl | tr ':''\n' | wc -l
